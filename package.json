@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/gabirubao.lwc-l8amvtlw",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve TgyjGHzmpgybHzQyzZsV --open"
+  }
+}

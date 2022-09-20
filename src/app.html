@@ -1,0 +1,13 @@
+<template>
+	<lightning-card title="Formulário">
+		<div class="slds-m-around_medium">
+			<!-- Criar campo de formulario -->
+			<!-- Muito parecido com o aura so muda algumas sintaxes -->
+			<lightning-input label="Nome" type="text" name="nome" onchange={handleOnChangeNome}></lightning-input>
+			<lightning-input label="Altura" type="decimal" name="altura" onchange={handleOnChangeAltura}></lightning-input>
+			<lightning-input label="Peso" type="decimal" name="peso" onchange={handleOnChangePeso}></lightning-input>
+			<lightning-button variant="brand" label="Calcular IMC" onclick={handleOnClick}></lightning-button>
+			{result}
+		</div>
+	</lightning-card>
+</template>
